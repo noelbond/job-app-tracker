@@ -1,0 +1,103 @@
+@import 'charts.css';
+
+:root{ 
+    --container-bg: #ABC4FF;
+    --element-bg: #CCDBFD;
+    --chart-bg: #F5F8FF;
+    --font-color: #03045E;
+}
+
+body{
+    background-color: var(--chart-bg);
+}
+
+.wrapper{
+    color: var(--font-color);
+}
+
+.home-chart-container{
+    width: 320px;
+    height: 375px;
+    margin: 10% auto 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--container-bg);
+    border-radius: 5px;
+}
+
+.home-chart{
+    width: 275px;
+    height: 200px;
+    margin: 5% auto 10px auto;
+    padding: 5px;
+    background-color: var(--chart-bg);
+    border-radius: 5px;
+}
+
+.home-chart table{
+    padding: 5px;
+    height: 100px;
+}
+
+
+#charts-css{
+   background-color: var(--container-bg);
+   height: 100%;
+}
+
+.increments{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.increments button{
+    width: 75px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: #03045E;
+    color: #F5F8FF;
+}
+
+.summary{
+    text-align: center;
+    background-color: var(--element-bg);
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 17px;
+}
+
+.nav-container{
+    width: 320px;
+    height: 175px;
+    margin: 10% auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+    background-color: var(--container-bg);
+    border-radius: 5px;
+}
+
+.nav-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 133px;
+    height: 65px;
+    background-color: var(--element-bg);
+    border-radius: 5px;
+}
+
+.nav-button span{
+    margin: auto;
+    font-size: 20px;
+}
+
+.nav-button svg{
+    margin-left: 10px;
+}
+
